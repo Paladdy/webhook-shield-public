@@ -1,0 +1,15 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+infra/.env
+infra/.htpasswd
+
+# Личное — только локально, не в публичный репо
+AI_PLAN.md
+HH.md
+resume-ai-integrator-n8n.md
+
+# Grafana export dumps (настраивай в UI)
+webhook-shield overview-*.json

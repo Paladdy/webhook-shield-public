@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: webhook-shield
+    orgId: 1
+    folder: webhook-shield
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
